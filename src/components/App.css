@@ -1,0 +1,104 @@
+.App {
+  /*text-align: center;*/
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+ 
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+/*css for navbar*/
+.navbar {  
+  background-color: #f4f2f3;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: inline;
+}
+
+.navbar ul li {
+  display: inline;
+}
+
+.navbar ul li button{
+  line-height: 60px;
+  color: #777777;
+  background-color: #f4f2f3;
+  display: inline-block;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 24px;
+  border: none;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.navbar ul li button:hover {
+  color: #ffffff;
+}
+
+.navbar ul li button.active {
+  border-bottom: 3px solid black;
+  
+
+}
+
+/*css for article container*/
+
+.articleContainer {
+
+  margin-top: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.singleStory {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid;
+}
+
+.singleStory a {
+  text-decoration: none;
+  color: #777777;
+  line-height: 20px;
+}
+
+.singleStory a:hover{
+  color: #0d0d0f;
+}
+
+.time {
+  margin: 5px;
+}
+
+.author {
+  margin: 5px;
+}
+
+.paginate {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
